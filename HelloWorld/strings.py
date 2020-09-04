@@ -14,4 +14,15 @@ print(age)
 print(type(greeting))
 print(type(age))
 
-print("I'm" + age)  #strongly typed
+# print("I'm" + age)  #strongly typed, cant cocatenate int is str
+
+# f-strings ONLY IN PYTHON 3.6, no plans to backport them to prev versions
+# seems like an in-line/string replacement field
+
+
+print(name2 + f" is {age} years old")   # notice f
+print(type(age))
+
+print(f"Pi is approx {22 / 7:12.50f}")
+pi = 22 / 7
+print(f"Pi is approx {pi:12.50f}")
