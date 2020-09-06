@@ -7,5 +7,5 @@ while chosen_exit not in available_exits:
     if chosen_exit.casefold() == "quit":
         print("you quitter!")
         break
-
-print("you escaped!")
+else:
+    print("you escaped!")
