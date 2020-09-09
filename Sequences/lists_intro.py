@@ -15,3 +15,5 @@ print(computer_parts[0:3])
 print(computer_parts[-1])
 
 # strings are immutabble, lists are not
+
+# immutable: int, float, bool (True and False), str (string), tuple, frozenset, bytes
