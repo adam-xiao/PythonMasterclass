@@ -23,3 +23,7 @@ more_numbers = numbers.copy()   # same as above
 print(more_numbers)
 print(numbers is more_numbers)  # they are not the same list (False)
 print(numbers == more_numbers)  # however, they do contain the same values in the same order (True)
+
+print("---")
+
+print(even, odd)
