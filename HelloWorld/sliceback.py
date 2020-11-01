@@ -20,7 +20,7 @@ backwards = letters[-1:-9:-1]   #or [:-9:-1]
 print(backwards)
 
 
-#Python Slice Idions
+#Python Slice Idioms
 #[::-1] is reverse
 #[-4:] last 4 characters
 #[:1] first 1 character
